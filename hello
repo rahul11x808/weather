@@ -1,0 +1,28 @@
+"""
+def get_weather_condition(temp, weather_code):
+    # Weather condition mapping
+    if weather_code >= 200 and weather_code < 300:  # Thunderstorm
+        return "thunderstorm"
+    elif weather_code >= 300 and weather_code < 400:  # Drizzle
+        return "drizzle"
+    elif weather_code >= 500 and weather_code < 600:  # Rain
+        return "rain"
+    elif weather_code >= 600 and weather_code < 700:  # Snow
+        return "snow"
+    elif weather_code >= 700 and weather_code < 800:  # Atmosphere (fog, mist, etc)
+        return "fog"
+    elif weather_code == 800:  # Clear sky
+        if temp > 30:
+            return "hot"
+        elif temp > 25:
+            return "warm"
+        elif temp > 20:
+            return "pleasant"
+        elif temp > 10:
+            return "clear"
+        else:
+            return "cold"
+    elif weather_code > 800:  # Clouds
+        return "cloudy"
+    return "default"
+    """
